@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rock+Salt&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +8,8 @@ nav a {
     text-align: center;
     color: black;
     text-decoration: none;
+    font-family: Roboto, Helvetica, sans-serif;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #243036 ;
@@ -23,11 +27,18 @@ nav a:hover {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
 }
 body{
     background-color:  white ;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color:   rgba(128,128 ,128 , 0.5) ;
@@ -37,29 +48,79 @@ header{
     background-color:   #243036;
     color: white;
     text-decoration: none;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
-    background-color: #7d8385;
+    background-color: #5c5d5e;
     color: black;
 }
 #background {
     background-color: #7d8385;
+    
 }
 .msg {
     background-color: #7d8385;
-
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: black;
 }
 .msg p {
     color: black;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 0.8em;
+    padding-bottom: 15px;
+}
+
+
+.home-title {
+    color: #7d6533;
+    text-align: center;
+    font-family: Rock salt,'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.logo, .icon{
+    width: 80px;
+}
+h1, h2, h4 {
+    font-family: Rock salt,'Bradley Hand', sans-serif;
+    color: #7d6533;
+}
+h2{
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #ebc431;
+}
+.mountains{
+    margin: 50px 0;
 }
 
 footer {
     background-color: #7d8385;
     color: black;
     font-size: 1.2em;
+    font-family: Roboto, Helvetica, sans-serif;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: black;
@@ -71,16 +132,8 @@ footer a:hover {
 footer p a:hover {
     text-decoration: underline;
 }
-
-.home-title {
-    color: #7d6533;
-    text-align: center;
-}
-h4 {
-    color: #7d6533;
-}
-.logo, .icon{
-    width: 80px;
+footer .social img {
+    padding-top: 15px;
 }
 
 
