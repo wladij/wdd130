@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <title>About me</title>
 </head>
 <body>
@@ -21,37 +21,37 @@
             </nav>
         </header>
         <main>
-            <div>
+            
                 <div class="contact-text">
                     <h1>Learn more about me </h1>
                     <img src="Image/contac-us1.jpg" alt="contact image ">
 
                 </div>
                 <div class="send-message">
-                    <section>
-                        <h2>Leave me a Message</h2>
+                    <section class="section-form">
+                        <h2 class="h2-section">Leave me a Message</h2>
                 
                         <form action="https://formspree.io/f/myyqabkg" method="POST">
-                            <label for="firstName">First Name:
-                                <input type="text" id="firstName" name="firstName" required>
+                            <label for="firstName">
+                                <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
                             </label>
                 
-                            <label for="lastName">Last Name:
-                                <input type="text" id="lastName" name="lastName" required>
+                            <label for="lastName">
+                                <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
                             </label>
                 
-                            <label for="email">Email:
-                                <input type="email" id="email" name="email" required>
+                            <label for="email">
+                                <input type="email" id="email" name="email" placeholder="Email" required>
                             </label>
                 
                             <input type="submit" value="Send">
                         </form>
-                        <img src="Image/social-media.jpg" alt="contact">
+                        
                     </section>
                 </div>
-            </div>
+                <img class="section-img" src="Image/social-media.jpg" alt="contact">
         </main>
-        <footer>
+<footer>
             <p>J W &copy; 2023 - Joe Candelario</p>
         <p><a href="site-plan.html">Site Plan</a></p>
         <p><a href="contactme.html">Contact Me</a></p>

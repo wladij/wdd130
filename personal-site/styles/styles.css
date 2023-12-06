@@ -272,3 +272,78 @@ h1 {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+
+
+/* contact me style*/
+main {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-top: 50px;
+    
+}
+
+.contact-text{
+    grid-column: 1/2;
+    grid-row: 1/1;
+    padding: 20px;
+    text-align: center;
+}
+
+.send-message{
+    grid-column: 2/3;
+    grid-row: 1/1;
+    z-index: 1;
+    color: black;
+    padding: 20px;
+}
+
+.section-img{
+    grid-column: 2/3;
+    grid-row: 1/1;
+    
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    border-radius: 5%;
+}
+.h2-section{
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 2em;
+
+}
+
+.section-form{
+    margin-top: 50px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+    
+}
+
+label {
+    margin: 10px 0;
+    color: black;
+
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
