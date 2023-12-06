@@ -276,7 +276,7 @@ h1 {
 
 
 /* contact me style*/
-main {
+.main-contactme {
     display: grid;
     grid-template-columns: 2fr 2fr;
     margin-top: 50px;
